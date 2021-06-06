@@ -1,0 +1,298 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:sans-serif;
+}
+.title{
+    display: flex;
+    margin: 25px;
+}
+.title h1{
+    color: #FF5956;
+    font-size: 45px;
+    margin: 0;
+}
+.title h5{
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+.title img{
+    width: 25px;
+    transform: translate(50%, 50%);
+}
+.title .circle{
+    width: 50px;
+    height: 50px;
+    background-color: #00B2E2;
+    border-radius: 50%;
+    border: 5px solid #e8e3e3;
+    float: left;
+}
+.diet{
+    background-color: #FF9E1B;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.diet i{
+    font-size: 35px;
+    color: black;
+}
+.diet i.red{
+    color:#FF5959;
+}
+.diet h5{
+    font-weight: 200;
+    font-size: 17px;
+    margin-top: 0;
+}
+.care{
+    background-color: #00B2E2;
+    margin: 0 auto;        
+    text-align: center;
+    padding: 30px;
+}
+.care h5{
+    margin-top:0;
+}
+.care i{
+    color: black;
+}
+.chronic{
+    background-color: #FF5959;
+    width: 100%;
+    min-height: 100px;
+    margin: 25px auto;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.chronic-title{
+    width: 250px;
+    margin: 0 auto;
+}
+.chronic-reasons h5{
+    font-weight: 100;
+    font-size: 15px;
+}
+.risks{
+    background-color: #00B2E2;
+    min-height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.risks h5{
+    font-weight: 100;
+}
+.risks i{
+    color:black
+}
+.fries{
+    background-color: #FF5959;
+    min-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.healthy-foods{
+    margin: 25px 0;
+}
+.fries h2{
+    margin-top: 0   ;
+}
+.healthy-foods img{
+    width: 75px;
+}
+.juice{
+    background-color: #FF9E1B;
+    min-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.toddle{
+    background-color: #00B2E2;
+    min-height: 100px;
+    margin: 25px auto;
+    text-align: center;
+    padding: 20px;
+}
+.toddle h1{
+    margin-top:0;
+}
+.toddle img{
+    width: 100px;
+} 
+
+.pre{
+    background-color: #FF9E1B;
+    min-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.pre h1{
+    margin-top: 0;
+}
+.pre-ico i{
+    color:#FF5959;
+    font-size: 90px;
+}
+.survey{
+    margin: 25px auto;
+}
+.budget{
+    background-color: #00B2E2;
+    min-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.budget h1{
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.child-food{
+    background-color: #FF5959;
+    min-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.child-food h2{
+    margin-top:0;
+}
+.child-food h5, .budget h5{
+    font-weight: 200;
+}
+.chronic-ico{
+    display: flex;
+    width: 250px;
+    margin: auto auto;
+}
+.chronic-ico i{
+    color:black;
+}
+.chronic-ico > .ico-text{
+    padding-right: 10px;
+    font-size: 30px;
+}
+.ico-text h6{
+    margin: 10px 0;
+    font-weight: 100;
+
+}
+.survey img{
+    width: 100px;
+}
+
+@media screen and (min-width:426px){
+    .health{
+        display: flex;
+        margin: 50px;
+    }
+    .diet{
+        padding: 20px;
+        width: 100%;
+    }
+    .care{
+        padding: 20px;
+        width: 100%;
+    }
+    .chronic{
+        width: auto;
+        margin: 50px;
+        min-height: 225px;
+    }
+    .chronic-head{
+        display: flex;
+    }
+    .chronic-title{
+        margin: 0px 15px;
+    }
+    .chronic-reasons{
+        margin: auto 25px;
+        text-align: left;
+    }
+    .risks{
+        display: flex;
+        margin: 50px;
+        font-size: 20px;
+    }
+    .risks-two{
+        margin-top:58px;
+    }
+    .risks-one, .risks-two{
+        padding: 0 15px;
+        width: 606.5px;
+    }
+    .healthy-foods{
+        display: flex;
+        margin: 50px;
+    }
+    .fries, .juice{
+        width: 100%;
+    }
+    .toddle{
+        display: flex;
+        margin: 50px;
+    }
+    
+    .toddle img{
+        margin: 0 auto;
+    }
+    .pre{
+        display: flex;
+        margin: 50px;
+    }
+    .pre-ico{
+        margin: 0 auto;
+    }
+    .survey{
+        display: flex;
+        margin: 50px;
+    }
+    .child-food,.budget{
+        width: 100%;
+    }
+    .title{
+        margin: 50px;
+        margin-left: 25%;
+    }
+    .title .circle{
+        width: 80px;
+        height: 80px;
+    }
+    .title img{
+        width: 40px;
+    }
+    .title h1{
+        font-size: 60px;
+    }
+    .title h5{
+        font-size: 18px; 
+        padding-left: 6px;
+    }
+}
+
+@media screen and (min-width:769px){
+    .title{
+        margin-left: 30%;
+    }
+    .chronic-title{
+        width: 400px;
+    }
+}
+@media screen and (min-width:1025px){
+    .title{
+        margin-left: 35%;
+    }
+}
+p{
+    margin: 0;
+}
+h5{
+    font-size:17px;
+    font-weight: 100;
+}
