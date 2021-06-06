@@ -186,6 +186,11 @@ body{
 .survey img{
     width: 100px;
 }
+@media screen and (min-width:321px){
+    .title{
+        margin-left: 15%;
+    }
+}
 
 @media screen and (min-width:426px){
     .health{
